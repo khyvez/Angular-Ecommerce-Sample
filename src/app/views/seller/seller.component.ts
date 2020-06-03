@@ -45,8 +45,9 @@ export class SellerComponent implements OnInit {
 
 		const fd = new FormData();
 		fd.append('image', this.selectedFile, this.selectedFile.name);
-		this.http.post('http://127.0.0.1:8000/api/upload_img', fd).subscribe((res: { url: '' }) => {
+		this.http.post('https://cherrygianan.herokuapp.com/api/upload_img', fd).subscribe((res: { url: '' }) => {
 			this.product.image = res.url;
+			console.log(res.url);
 		});
 	}
 	onSumbit() {
