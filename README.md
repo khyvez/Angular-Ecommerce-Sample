@@ -12,7 +12,6 @@
   
 <h4>Screenshots</h4>
 
-<img width="200" src="https://i.ibb.co/prKd2V9/ssview.png" alt="ssview" border="0"><img width="200" src="https://i.ibb.co/c6LdD2b/sshome.png" alt="sshome" border="0">
-
-<img width="200" src="https://i.ibb.co/swrKS5k/sscheckout.png" alt="sscheckout" border="0"><img  width="200" src="https://i.ibb.co/TwvTJGj/sscart.png" alt="sscart" border="0"></a>
-
+<img width="300" src="https://i.ibb.co/PzWgxXf/ssview.png" alt="ssview" border="0">
+<img  width="300" src="https://i.ibb.co/m9876hv/sshome.png" alt="sshome" border="0"><img  width="300" src="https://i.ibb.co/3NHpXfG/sscheckout.png" alt="sscheckout" border="0">
+<img  width="300" src="https://i.ibb.co/NFV3fqD/sscart.png" alt="sscart" border="0">
