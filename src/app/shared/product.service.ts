@@ -10,7 +10,7 @@ import { Product } from './product';
 export class ProductService {
 	constructor(private http: HttpClient) {}
 	param: { criteria: '' };
-	apiURL = 'http://cherrygianan.herokuapp.com/api';
+	apiURL = 'https://cherrygianan.herokuapp.com/api';
 	httpOptions = {
 		headers: new HttpHeaders({
 			'Content-Type': 'application/json'
