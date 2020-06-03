@@ -1,1 +1,72 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: whitesmoke;
+}
+
+.bRadius {
+  border-radius: 10px;
+  box-shadow: -2px -2px 8px rgba(255, 255, 255, 1),
+    -2px -2px 12px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+    2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.bBotline {
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.boxContainer {
+  box-shadow: -2px -2px 8px rgba(255, 255, 255, 1),
+    -2px -2px 12px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+    2px 2px 8px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  border-radius: 7px;
+}
+
+.box-header {
+  border-bottom: 1px solid #e8e8e8;
+  color: #656565;
+  padding: 12px 0px 12px 20px;
+  letter-spacing: 2px;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.box-content {
+  padding: 20px;
+}
+
+.cardProduct {
+  padding: 10px;
+  border: 1px solid #e8e8e8;
+
+}
+
+.cardProduct:hover {
+  box-shadow: -2px -2px 8px rgba(255, 255, 255, 1),
+    -2px -2px 12px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+    2px 2px 8px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  border-radius: 7px;
+  transition: all ease-in-out 1s;
+}
+
+.cardImg {
+  height: 170px;
+}
+
+.cardTitle {
+  font-size: 16px;
+  margin-top: 10px;
+  line-height: 30px;
+}
+
+.cardPrice {
+  color: #309192;
+  font-size: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+}

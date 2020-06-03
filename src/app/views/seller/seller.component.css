@@ -1,0 +1,29 @@
+.dashboard-header {
+  background-color: #fff;
+  width: 100%;
+}
+
+.sidebar-area {
+  background-color: #009192;
+  height: 100vh;
+  position: fixed;
+  width: 17%;
+}
+
+.box-action {
+  position: absolute;
+  right: 40px;
+  top: 20px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #37a2a5;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+}

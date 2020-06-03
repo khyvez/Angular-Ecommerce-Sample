@@ -1,0 +1,66 @@
+.product-viewImg {
+  padding: 50px;
+}
+
+.product-viewTitle {
+  padding: 20px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.socialCircle {
+  height: 35px;
+  width: 35px;
+  background-color: #d2d2d2;
+  color: #575757;
+  padding: 5px;
+}
+
+.socialCircle:hover {
+  background: #fff;
+
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #37a2a5;
+}
+
+a {
+  color: #37a2a5;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.btnMinus {
+  border-radius: 15px 0px 0px 15px;
+  border: 1px solid #d2d2d2;
+  color: #4d4d4d;
+
+  width: 35px;
+}
+
+.btnAdd {
+  border-radius: 0px 15px 15px 0px;
+  border: 1px solid #d2d2d2;
+  color: #4d4d4d;
+
+  width: 35px;
+}
+
+.btnMinus:focus {
+  border-radius: 15px 0px 0px 15px;
+  border: 0px;
+  width: 35px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.quantity {
+  border-radius: 0px;
+  border-right: 0px;
+  border-left: 0px;
+}

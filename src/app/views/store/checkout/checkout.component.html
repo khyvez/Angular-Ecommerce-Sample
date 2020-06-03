@@ -1,0 +1,65 @@
+<app-header></app-header>
+
+<div class="p-5">
+  <div class="row justify-content-center">
+    <div class="col-md-5">
+      <h2>Shipping</h2>
+      <div class="form-group">
+        <label for="">Name</label>
+        <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+
+      </div>
+      <div class="form-group">
+        <label for="">Address</label>
+        <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+
+      </div>
+      <div class="form-group">
+        <label for="">Contact</label>
+        <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+
+      </div>
+      <div class="form-group">
+        <button class="btn btn-primary">
+          Place Order
+        </button>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="boxContainer">
+        <div class="box-header">
+          Order Summary
+        </div>
+        <div class="box-content" *ngIf="cartItem">
+          <div class="d-flex py-2 justify-content-between bBotline" *ngFor="let item of cartItem">
+            <div class=" flex-item">
+              {{ grandTotal(item.price * item.quantity)}} <small> {{item.quantity}}x</small> {{item.name | slice:0:20}}
+            </div>
+            <div class="flex-item">
+              <span class="font-weight-bold">
+                {{ item.price * item.quantity }}
+              </span>
+            </div>
+          </div>
+
+          <div class="box-footer py-4">
+            <div class="d-flex justify-content-between">
+              <div class="flex-item">
+                <span class="font-weight-bold">
+                  Total
+                </span>
+              </div>
+              <div class="flex-item">
+                <span class="font-weight-bold">
+                  {{ grandTotalVal }}
+                </span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <app-footer></app-footer>
