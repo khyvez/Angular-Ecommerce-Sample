@@ -1,5 +1,6 @@
 <h2>Angular Timeline</h2><br>
-<h5>Week 1 -Ecommerce Sample</h5> <br>
+<h5>Week 1 of learning angular -Ecommerce Sample</h5> <br>
+#WIP
 <br>
   -Add Product <br>
   -Fetch All Product<br>
